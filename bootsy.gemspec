@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.version     = Bootsy::VERSION
   s.authors     = ['Eirik Thommessen']
   s.email       = ['eirik@reelmedianordic.com']
-  s.homepage    = 'github.com/ethomm/bootsy-bootstrap-alpha'
+  s.homepage    = 'http://github.com/ethomm/bootsy-bootstrap-alpha'
   s.summary     = 'A beautiful WYSIWYG editor with image uploads for Rails. Based on Volmer Bootsy that is no longer maintained'
   s.description = 'A beautiful WYSIWYG editor with image uploads for Rails. Based on Volmer Bootsy that is no longer maintained'
   s.license     = 'MIT'
