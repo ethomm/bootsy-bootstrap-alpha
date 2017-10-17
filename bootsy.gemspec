@@ -4,7 +4,7 @@ $LOAD_PATH.push File.expand_path('../lib', __FILE__)
 require 'bootsy/version'
 
 Gem::Specification.new do |s|
-  s.name        = 'bootsy-bootstrap-alpha'
+  s.name        = 'bootsy'
   s.version     = Bootsy::VERSION
   s.authors     = ['Eirik Thommessen']
   s.email       = ['eirik@reelmedianordic.com']
