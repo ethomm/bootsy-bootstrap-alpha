@@ -29,11 +29,11 @@ Bootsy.init = function() {
 $(function() {
   $(window).on('ready', function() {
     Bootsy.init();
-  $( document ).on('turbolinks:load', function(){
-    Bootsy.init();
-  }
 
     /* Reload Bootsy on page load when using Turbolinks. */
     document.addEventListener('turbolinks:load', Bootsy.init);
+  });
+  $( document ).on('turbolinks:load', function(){
+    Bootsy.init();
   });
 });
