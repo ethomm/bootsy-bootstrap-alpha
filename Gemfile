@@ -19,5 +19,5 @@ gem 'factory_girl_rails'
 gem 'poltergeist'
 gem 'pry-rails'
 gem 'rspec-rails'
-gem 'rubocop'
+gem 'rubocop', '~> 0.54.0'
 gem 'sham_rack', require: false
